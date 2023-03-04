@@ -13,10 +13,13 @@ public class EbayHomePageSteps {
 		
 	}
 	
-	
-	
 	@When("^Search for shoes$")
 	public void search_for_shoes() throws Throwable {
 		EbayHomePageActionsObj.searchShoes();
+	}
+	
+	@Given("^Search for \"([^\"]*)\"$")
+	public void search_for(String arg1) throws Throwable {
+	    
 	}
 }
