@@ -49,4 +49,10 @@ public class EbaySearchResultActions {
 			System.out.println("Brand not found");
 		}
 	}
+	
+	public void selectBigTallTee() throws Exception{
+		Thread.sleep(3000);
+		EbaySearchResultLocatorsObj.linkShirtItems.click();
+		Thread.sleep(2000);
+	}
 }

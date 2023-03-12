@@ -28,5 +28,10 @@ public class EbaySearchResultLocators {
 	//Checkbox Brand Unbranded
 	@FindBy(xpath="//input[@aria-label='Unbranded']")
 	public WebElement cbxBrandUnbranded;
+	
+	//Shirt link
+	@FindBy(xpath="//span[contains(text(), 'Big & Tall Cotton Tee. Sizes 4 XLT to 8XLT')]")
+	public WebElement linkShirtItems;
+	
 
 }

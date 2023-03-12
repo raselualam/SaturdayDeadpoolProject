@@ -25,6 +25,6 @@ public class EbayHomePageSteps {
 	
 	@Given("^Search for Big Tall Cotton Tee$")
 	public void search_for_Big_Tall_Cotton_Tee() throws Throwable {
-
+		EbayHomePageActionsObj.searchBigTallTee();
 	}
 }

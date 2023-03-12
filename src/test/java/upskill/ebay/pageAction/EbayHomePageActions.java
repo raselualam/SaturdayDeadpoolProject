@@ -23,4 +23,9 @@ public class EbayHomePageActions {
 		EbayHomePageLocatorsObj.txtbxSearch.sendKeys(items);
 		EbayHomePageLocatorsObj.btnSearch.click();
 	}
+	
+	public void searchBigTallTee(){
+		EbayHomePageLocatorsObj.txtbxSearch.sendKeys("Big & Tall Cotton Tee");
+		EbayHomePageLocatorsObj.btnSearch.click();
+	}
 }
